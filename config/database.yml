@@ -7,8 +7,10 @@ development:
   adapter: postgresql
   encoding: unicode
   database: jruby_de_admin_development
-  username: jruby_de_admin
-  password:
+  host: localhost
+  port: 5432
+  username: postgres
+  password: postgres
 
   # Connect on a TCP socket. Omitted by default since the client uses a
   # domain socket that doesn't need configuration. Windows does not have
@@ -32,12 +34,16 @@ test:
   adapter: postgresql
   encoding: unicode
   database: jruby_de_admin_test
-  username: jruby_de_admin
-  password:
-
+  host: localhost
+  port: 5432
+  username: postgres
+  password: postgres
+  
 production:
   adapter: postgresql
   encoding: unicode
   database: jruby_de_admin_production
-  username: jruby_de_admin
-  password:
+  host: localhost
+  port: 5432
+  username: postgres
+  password: postgres

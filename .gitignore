@@ -14,5 +14,11 @@
 /log/*.log
 /tmp
 
+# Ignore documentation files.
+/doc
+/doc/**/*
+/.yardoc
+
+
 # Ignore eclipse files.
 /.project

@@ -113,6 +113,9 @@ GEM
     uglifier (1.2.3)
       execjs (>= 0.3.0)
       multi_json (>= 1.0.2)
+    yard (0.7.5)
+    yard-rspec (0.1)
+      yard
 
 PLATFORMS
   java
@@ -128,3 +131,5 @@ DEPENDENCIES
   sass-rails (~> 3.2.3)
   therubyrhino
   uglifier (>= 1.0.3)
+  yard
+  yard-rspec

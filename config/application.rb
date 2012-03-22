@@ -21,6 +21,12 @@ module JrubyDeAdmin
     # Application configuration should go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded.
 
+
+    # アプリ全体で利用するシステム設定
+    # アプリ上では読み込みのみにして値を変更しないこと
+    config.app_settings = YAML.load_file('config/system.yml')
+    
+
     # Custom directories with classes and modules you want to be autoloadable.
     # config.autoload_paths += %W(#{config.root}/extras)
 
